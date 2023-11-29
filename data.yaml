@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Automatic Rifle', 'Bazooka', 'Grenade Launcher', 'Handgun', 'Knife', 'SMG', 'Shotgun', 'Sniper', 'Sword']
+
+roboflow:
+  workspace: smartbridge-project
+  project: weapondetectiondataset-h3e7t
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/smartbridge-project/weapondetectiondataset-h3e7t/dataset/2
